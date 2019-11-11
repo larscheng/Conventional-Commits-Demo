@@ -1,0 +1,33 @@
+{
+  "name": "Conventional-Commits-Demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "commitizen": "^4.0.3",
+    "standard-version": "^7.0.0"
+  },
+  "devDependencies": {
+    "cz-conventional-changelog": "^3.0.2"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "release": "standard-version"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/larscheng/Conventional-Commits-Demo.git"
+  },
+  "keywords": [],
+  "author": "larscheng",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/larscheng/Conventional-Commits-Demo/issues"
+  },
+  "homepage": "https://github.com/larscheng/Conventional-Commits-Demo#readme",
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  }
+}
