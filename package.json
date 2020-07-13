@@ -5,7 +5,7 @@
   "main": "index.js",
   "dependencies": {
     "commitizen": "^4.0.3",
-    "standard-version": "^7.0.0"
+    "standard-version": "^8.0.1"
   },
   "devDependencies": {
     "cz-conventional-changelog": "^3.0.2"
